@@ -904,10 +904,10 @@ contract Coin98VRC25 is Context, EIP712, IVRC25 {
    * All three of these values are immutable: they can only be set once during
    * construction.
    */
-  constructor() EIP712("Coin98VRC25", "1") {
+  constructor() EIP712("Adventure Story", "1") {
     uint256 fractions = 10 ** uint256(18);
-    _name = "Coin98";
-    _symbol = "C98";
+    _name = "Adventure Story";
+    _symbol = "AS";
     _decimals = 18;
     _maxSupply = 1000000000 * fractions;
     _owner = _msgSender();
