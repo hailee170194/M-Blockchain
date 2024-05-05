@@ -872,7 +872,7 @@ abstract contract EIP712 {
  * functions have been added to mitigate the well-known issues around setting
  * allowances. See {IERC20-approve}.
  */
-contract Coin98VRC25 is Context, EIP712, IVRC25 {
+contract AdventureVRC25 is Context, EIP712, IVRC25 {
   using SafeERC20 for IERC20;
   using SafeMath for uint256;
   using Address for address;

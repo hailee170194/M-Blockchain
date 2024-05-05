@@ -1703,7 +1703,7 @@ abstract contract MinterRole {
 
 
 
-contract StarshipCollection is VRC725Enumerable, MinterRole {
+contract AdventureCollection is VRC725Enumerable, MinterRole {
     string public baseURI;
 
     event BaseURIUpdated(string newBaseURI);
